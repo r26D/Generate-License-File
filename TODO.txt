@@ -1,5 +1,6 @@
 Give option to not include the version of the library in the output
 Give option to not include the libary name or version in the output
+Give option to output as json so it is easier to format in the app
 Give option to denylist a package so a generate README with no license doesn't get included
 
 INclude last update date/ and maybe a git hash
