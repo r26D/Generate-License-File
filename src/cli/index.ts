@@ -1,6 +1,6 @@
 import arg from "arg";
 import { validArguments } from "./valid-arguments";
-import { IArguments } from "./arguements.interface";
+import { IArguments } from "./arguments.interface";
 import { doesFileExist } from "../utils/file.utils";
 import ora, { Ora } from "ora";
 import { pong } from "cli-spinners";
