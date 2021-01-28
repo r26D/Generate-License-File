@@ -7,9 +7,12 @@ This CLI generates a text file containing all the licences for your production 3
 $ npm install generate-license-file -g
 
 $ generate-license-file --input package.json --output 3rd-party-licenses.txt
+
+$ generate-license-file --json --input package.json --output 3rd-party-licenses.json
 ```
 - Input: The package.json for the project you want to target
 - Output: The file to be created
+- Json: If passed will generate it in JSON format instead of plain text
 
 If either flag is omitted the CLI will prompt you for the inputs.
 
